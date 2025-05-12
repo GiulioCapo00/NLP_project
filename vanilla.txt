@@ -8,8 +8,6 @@
 [('He', 'O'), ('said', 'O'), ('a', 'O'), ('proposal', 'O'), ('last', 'O'), ('month', 'O'), ('by', 'O'), ('EU', 'B-ORG'), ('Farm', 'I-ORG'), ('Commissioner', 'I-ORG'), ('Franz', 'B-PER'), ('Fischler', 'I-PER'), ('to', 'O'), ('ban', 'O'), ('sheep', 'O'), ('brains', 'O'), (',', 'O'), ('spleens', 'O'), ('and', 'O'), ('spinal', 'O'), ('cords', 'O'), ('from', 'O'), ('the', 'O'), ('human', 'O'), ('and', 'O'), ('animal', 'O'), ('food', 'O'), ('chains', 'O'), ('was', 'O'), ('a', 'O'), ('highly', 'O'), ('specific', 'O'), ('and', 'O'), ('precautionary', 'O'), ('move', 'O'), ('to', 'O'), ('protect', 'O'), ('human', 'O'), ('health', 'O'), ('.', 'O')]
 [('Fischler', 'B-PER'), ('proposed', 'O'), ('EU-wide', 'B-ORG'), ('measures', 'O'), ('after', 'O'), ('reports', 'O'), ('from', 'O'), ('Britain', 'B-LOC'), ('and', 'O'), ('France', 'B-LOC'), ('that', 'O'), ('under', 'O'), ('laboratory', 'O'), ('conditions', 'O'), ('sheep', 'O'), ('could', 'O'), ('contract', 'O'), ('Bovine', 'B-MISC'), ('Spongiform', 'I-MISC'), ('Encephalopathy', 'I-MISC'), ('(', 'O'), ('BSE', 'B-MISC'), (')', 'O'), ('--', 'O'), ('mad', 'O'), ('cow', 'O'), ('disease', 'O'), ('.', 'O')]
 [('But', 'O'), ('Fischler', 'B-PER'), ('agreed', 'O'), ('to', 'O'), ('review', 'O'), ('his', 'O'), ('proposal', 'O'), ('after', 'O'), ('the', 'O'), ('EU', 'B-ORG'), ("'s", 'O'), ('standing', 'O'), ('veterinary', 'O'), ('committee', 'O'), (',', 'O'), ('national', 'O'), ('animal', 'O'), ('health', 'O'), ('officials', 'O'), (',', 'O'), ('questioned', 'O'), ('if', 'O'), ('such', 'O'), ('action', 'O'), ('was', 'O'), ('justified', 'O'), ('as', 'O'), ('there', 'O'), ('was', 'O'), ('only', 'O'), ('a', 'O'), ('slight', 'O'), ('risk', 'O'), ('to', 'O'), ('human', 'O'), ('health', 'O'), ('.', 'O')]
-Here is the list of tokens with their corresponding labels:
-
 [('Spanish', 'B-MISC'), ('Farm', 'I-MISC'), ('Minister', 'I-MISC'), ('Loyola', 'B-PER'), ('de', 'I-PER'), ('Palacio', 'I-PER'), ('had', 'O'), ('earlier', 'O'), ('accused', 'O'), ('Fischler', 'B-PER'), ('at', 'O'), ('an', 'O'), ('EU', 'B-ORG'), ('farm', 'O'), ('ministers', 'O'), ("'", 'O'), ('meeting', 'O'), ('of', 'O'), ('causing', 'O'), ('unjustified', 'O'), ('alarm', 'O'), ('through', 'O'), ('"', 'O'), ('dangerous', 'O'), ('generalisation', 'O'), ('.', 'O'), ('"', 'O')]
 [('.', 'O')]
 [('Only', 'O'), ('France', 'B-LOC'), ('and', 'O'), ('Britain', 'B-LOC'), ('backed', 'O'), ('Fischler', 'B-PER'), ("'s", 'O'), ('proposal', 'O'), ('.', 'O')]
@@ -36,8 +34,6 @@ Here is the list of tokens with their corresponding labels:
 [('Now', 'O'), ('is', 'O'), ('the', 'O'), ('time', 'O'), ('for', 'O'), ('the', 'O'), ('two', 'O'), ('sides', 'O'), ('to', 'O'), ('engage', 'O'), ('in', 'O'), ('political', 'O'), ('talks', 'O')]
 [('that', 'O'), ('is', 'O'), ('to', 'O'), ('end', 'O'), ('the', 'O'), ('state', 'O'), ('of', 'O'), ('hostility', 'O'), (',', 'O'), ('"', 'O'), ('Thursday', 'B-MISC'), ("'s", 'O'), ('overseas', 'O'), ('edition', 'O'), ('of', 'O'), ('the', 'O'), ('People', 'B-ORG'), ("'s", 'I-ORG'), ('Daily', 'I-ORG'), ('quoted', 'O'), ('Tang', 'B-PER'), ('as', 'O'), ('saying', 'O'), ('.', 'O')]
 [('The', 'O'), ('foreign', 'B-MISC'), ('ministry', 'I-MISC'), ("'s", 'O'), ('Shen', 'B-PER'), ('told', 'O'), ('Reuters', 'B-ORG'), ('Television', 'I-ORG'), ('in', 'O'), ('an', 'O'), ('interview', 'O'), ('he', 'O'), ('had', 'O'), ('read', 'O'), ('reports', 'O'), ('of', 'O'), ('Tang', 'B-PER'), ("'s", 'O'), ('comments', 'O'), ('but', 'O'), ('gave', 'O'), ('no', 'O'), ('details', 'O'), ('of', 'O'), ('why', 'O'), ('the', 'O'), ('negotiator', 'O'), ('had', 'O'), ('considered', 'O'), ('the', 'O'), ('time', 'O'), ('right', 'O'), ('for', 'O'), ('talks', 'O'), ('with', 'O'), ('Taiwan', 'B-LOC'), (',', 'O'), ('which', 'O'), ('Beijing', 'B-LOC'), ('considers', 'O'), ('a', 'O'), ('renegade', 'O'), ('province', 'O'), ('.', 'O')]
-Here is the list of tuples with each token and its label:
-
 [('China', 'B-LOC'), (',', 'O'), ('which', 'O'), ('has', 'O'), ('long', 'O'), ('opposed', 'O'), ('all', 'O'), ('Taipei', 'B-LOC'), ('efforts', 'O'), ('to', 'O'), ('gain', 'O'), ('greater', 'O'), ('international', 'O'), ('recognition', 'O'), (',', 'O'), ('was', 'O'), ('infuriated', 'O'), ('by', 'O'), ('a', 'O'), ('visit', 'O'), ('to', 'O'), ('Ukraine', 'B-LOC'), ('this', 'O'), ('week', 'O'), ('by', 'O'), ('Taiwanese', 'B-MISC'), ('Vice', 'I-MISC'), ('President', 'I-MISC'), ('Lien', 'B-PER'), ('.', 'O')]
 [('China', 'B-LOC'), ('says', 'O'), ('time', 'O'), ('right', 'O'), ('for', 'O'), ('Taiwan', 'B-LOC'), ('talks', 'O'), ('.', 'O')]
 [('BEIJING', 'B-LOC'), ('1996-08-22', 'O')]
@@ -70,8 +66,6 @@ Here is the list of tuples with each token and its label:
 [('TYPE', 'O'), ('STRAIGHT', 'O'), ('ISS', 'B-ORG'), ('PRICE', 'O'), ('100.92', 'O'), ('PAY', 'O'), ('DATE', 'O'), ('24.SEP.96', 'O')]
 [('FULL', 'O'), ('FEES', 'O'), ('1.875', 'O'), ('REOFFER', 'O'), ('99.32', 'O'), ('SPREAD', 'O'), ('+20', 'O'), ('BP', 'O')]
 [('MOODY', 'B-ORG'), ('AA1', 'I-ORG'), ('LISTING', 'O'), ('LUX', 'B-ORG'), ('PAY', 'O'), ('FREQ', 'O'), ('=', 'O')]
-Here is the list of tokens with their corresponding labels:
-
 [('S&P', 'B-ORG'), ('=', 'O'), ('DENOMS', 'O'), ('(', 'O'), ('K', 'O'), (')', 'O'), ('1-10-100', 'O'), ('SALE', 'O'), ('LIMITS', 'O'), ('US', 'B-LOC'), ('/', 'O'), ('UK', 'B-LOC'), ('/', 'O'), ('CA', 'B-LOC')]
 [('NEG', 'O'), ('PLG', 'O'), ('NO', 'O'), ('CRS', 'O'), ('DEFLT', 'O'), ('NO', 'O'), ('FORCE', 'O'), ('MAJ', 'O'), ('=', 'O')]
 [('GOV', 'B-ORG'), ('LAW', 'I-ORG'), ('GERMAN', 'B-MISC'), ('HOME', 'I-MISC'), ('CTRY', 'I-MISC'), ('=', 'O'), ('TAX', 'B-MISC'), ('PROVS', 'I-MISC'), ('STANDARD', 'I-MISC')]
@@ -88,11 +82,7 @@ Here is the list of tokens with their corresponding labels:
 [('LAST', 'O'), ('MOODY', 'B-ORG'), ('AA3', 'I-ORG'), ('ISS', 'I-ORG'), ('PRICE', 'O'), ('99.956', 'O'), ('FULL', 'O'), ('FEES', 'O'), ('10', 'O'), ('BP', 'O')]
 [('LAST', 'O'), ('S&P', 'B-ORG'), ('AA+', 'O'), ('REOFFER', 'O'), ('=', 'O')]
 [('NOTES', 'O'), ('S', 'O'), ('SHORT', 'O'), ('FIRST', 'O'), ('COUPON', 'O')]
-Here is the list of tokens with their corresponding labels:
-
 [('LISTING', 'O'), ('LONDON', 'B-LOC'), ('DENOMS', 'O'), ('(', 'O'), ('K', 'O'), (')', 'O'), ('1-10-100', 'O'), ('SALE', 'O'), ('LIMITS', 'O'), ('US', 'B-LOC'), ('/', 'O'), ('UK', 'B-LOC'), ('/', 'O'), ('JP', 'B-LOC'), ('/', 'O'), ('FR', 'B-LOC')]
-
-Note: I've labeled country codes ('US', 'UK', 'JP', 'FR') and 'LONDON' as LOC (Location) entities. The rest of the tokens don't fit into the given entity categories and are labeled 'O'.
 [('NEG', 'O'), ('PLG', 'O'), ('YES', 'O'), ('CRS', 'O'), ('DEFLT', 'O'), ('NO', 'O'), ('FORCE', 'O'), ('MAJ', 'O'), ('IPMA', 'O'), ('2', 'O')]
 [('GOV', 'B-ORG'), ('LAW', 'I-ORG'), ('ENGLISH', 'I-ORG'), ('HOME', 'I-ORG'), ('CTRY', 'I-ORG'), ('SWEDEN', 'B-LOC'), ('TAX', 'B-ORG'), ('PROVS', 'I-ORG'), ('STANDARD', 'I-ORG')]
 [('MGT', 'O'), ('/', 'O'), ('UND', 'O'), ('5', 'O'), ('BP', 'O'), ('SELL', 'O'), ('CONC', 'O'), ('5', 'O'), ('BP', 'O'), ('PRAECIP', 'O'), ('=', 'O')]
@@ -122,8 +112,6 @@ Note: I've labeled country codes ('US', 'UK', 'JP', 'FR') and 'LONDON' as LOC (L
 [('The', 'O'), ('media', 'O')]
 [('are', 'O'), ('full', 'O'), ('of', 'O'), ('expressions', 'O'), ('and', 'O'), ('declarations', 'O'), ('that', 'O'), ('must', 'O'), ('be', 'O'), ('worrying', 'O')]
 [('this', 'O'), ('artificial', 'O'), ('atmosphere', 'O'), ('is', 'O'), ('very', 'O'), ('dangerous', 'O'), ('because', 'O'), ('those', 'O'), ('who', 'O'), ('spread', 'O'), ('it', 'O'), ('could', 'O'), ('become', 'O'), ('its', 'O'), ('prisoners', 'O'), (',', 'O'), ('"', 'O'), ('Levy', 'B-PER'), ('said', 'O'), ('.', 'O')]
-Here is the list of tuples with each token and its recognized label:
-
 [('We', 'O'), ('expect', 'O'), ('from', 'O'), ('Syria', 'B-LOC'), (',', 'O'), ('if', 'O'), ('its', 'O'), ('face', 'O'), ('is', 'O'), ('to', 'O'), ('peace', 'O'), (',', 'O'), ('that', 'O'), ('it', 'O'), ('will', 'O'), ('answer', 'O'), ('Israel', 'B-LOC'), ("'s", 'O'), ('message', 'O'), ('to', 'O'), ('enter', 'O'), ('peace', 'O'), ('negotiations', 'O'), ('because', 'O'), ('that', 'O'), ('is', 'O'), ('our', 'O'), ('goal', 'O'), (',', 'O'), ('"', 'O'), ('he', 'O'), ('said', 'O'), ('.', 'O'), ('"', 'O')]
 [('We', 'O'), ('do', 'O'), ('not', 'O'), ('want', 'O'), ('a', 'O'), ('war', 'O'), (',', 'O'), ('God', 'O'), ('forbid', 'O'), ('.', 'O')]
 [('No', 'O'), ('one', 'O'), ('benefits', 'O'), ('from', 'O'), ('wars', 'O'), ('.', 'O'), ('"', 'O')]
@@ -187,8 +175,6 @@ Here is the list of tuples with each token and its recognized label:
 [('The', 'O'), ('three', 'O'), ('Islamic', 'B-MISC'), ('Taleban', 'I-MISC'), ('guards', 'O'), ('were', 'O'), ('overpowered', 'O'), ('by', 'O'), ('seven', 'O'), ('Russian', 'B-MISC'), ('aircrew', 'O'), ('who', 'O'), ('escaped', 'O'), ('to', 'O'), ('UAE', 'B-LOC'), ('state', 'O'), ('Sharjah', 'B-LOC'), ('last', 'O'), ('Friday', 'O'), ('on', 'O'), ('board', 'O'), ('their', 'O'), ('own', 'O'), ('aircraft', 'O'), ('after', 'O'), ('a', 'O'), ('year', 'O'), ('in', 'O'), ('the', 'O'), ('captivity', 'O'), ('of', 'O'), ('Taleban', 'B-ORG'), ('militia', 'O'), ('in', 'O'), ('Kandahar', 'B-LOC'), ('in', 'O'), ('southern', 'O'), ('Afghanistan', 'B-LOC'), ('.', 'O')]
 [('The', 'O'), ('UAE', 'B-LOC'), ('said', 'O'), ('on', 'O'), ('Monday', 'O'), ('it', 'O'), ('would', 'O'), ('hand', 'O'), ('over', 'O'), ('the', 'O'), ('three', 'O'), ('to', 'O'), ('the', 'O'), ('International', 'B-ORG'), ('Red', 'I-ORG'), ('Crescent', 'I-ORG'), (',', 'O'), ('possibly', 'O'), ('last', 'O'), ('Tuesday', 'O'), ('.', 'O')]
 [('It', 'O'), ('has', 'O'), ('since', 'O'), ('been', 'O'), ('silent', 'O'), ('on', 'O'), ('the', 'O'), ('issue', 'O'), ('.', 'O')]
-Here is the list of tuples with each token and its label:
-
 [('When', 'O'), ('asked', 'O'), ('whether', 'O'), ('the', 'O'), ('three', 'O'), ('guards', 'O'), ('would', 'O'), ('travel', 'O'), ('back', 'O'), ('to', 'O'), ('Kandahar', 'B-LOC'), ('or', 'O'), ('the', 'O'), ('Afghan', 'B-LOC'), ('capital', 'O'), ('Kabul', 'B-LOC'), (',', 'O'), ('the', 'O'), ('embassy', 'B-ORG'), ('official', 'O'), ('said', 'O'), (':', 'O'), ('"', 'O'), ('That', 'O'), ('has', 'O'), ('not', 'O'), ('been', 'O'), ('decided', 'O'), (',', 'O'), ('but', 'O'), ('possibly', 'O'), ('Kandahar', 'B-LOC'), ('.', 'O'), ('"', 'O')]
 [('Kandahar', 'B-LOC'), ('is', 'O'), ('the', 'O'), ('headquarters', 'O'), ('of', 'O'), ('the', 'O'), ('opposition', 'O'), ('Taleban', 'B-ORG'), ('militia', 'O'), ('.', 'O')]
 [('Kabul', 'B-LOC'), ('is', 'O'), ('controlled', 'O'), ('by', 'O'), ('President', 'O'), ('Burhanuddin', 'B-PER'), ('Rabbani', 'I-PER'), ("'s", 'O'), ('government', 'O'), (',', 'O'), ('which', 'O'), ('Taleban', 'B-ORG'), ('is', 'O'), ('fighting', 'O'), ('to', 'O'), ('overthrow', 'O'), ('.', 'O')]
@@ -246,8 +232,6 @@ Here is the list of tuples with each token and its label:
 [('MONTGOMERY', 'B-LOC'), (',', 'O'), ('Ala', 'I-LOC'), ('.', 'O')]
 [('1996-08-22', 'O')]
 [('KinderCare', 'B-ORG'), ('Learning', 'I-ORG'), ('Centers', 'I-ORG'), ('Inc', 'I-ORG'), ('said', 'O'), ('on', 'O'), ('Thursday', 'B-MISC'), ('that', 'O'), ('a', 'O'), ('debt', 'O'), ('buyback', 'O'), ('would', 'O'), ('mean', 'O'), ('an', 'O'), ('extraordinary', 'O'), ('loss', 'O'), ('of', 'O'), ('$', 'O'), ('1.2', 'O'), ('million', 'O'), ('in', 'O'), ('its', 'O'), ('fiscal', 'O'), ('1997', 'B-MISC'), ('first', 'O'), ('quarter', 'O'), ('.', 'O')]
-
-Note: I corrected "Centers" to "Centers" in the output to match the input text, though the original text appears to have a typo ("Centers" is the correct spelling for the company name). If the original text indeed says "Centers", the output should reflect that.
 [('The', 'O'), ('company', 'O'), ('said', 'O'), ('that', 'O'), ('during', 'O'), ('the', 'O'), ('quarter', 'O'), (',', 'O'), ('which', 'O'), ('began', 'O'), ('June', 'B-MISC'), ('1', 'I-MISC'), (',', 'O'), ('it', 'O'), ('bought', 'O'), ('$', 'O'), ('30', 'O'), ('million', 'O'), ('par', 'O'), ('value', 'O'), ('of', 'O'), ('its', 'O'), ('outstanding', 'O'), ('10-3/8', 'O'), ('percent', 'O'), ('senior', 'O'), ('notes', 'O'), ('due', 'O'), ('2001', 'B-MISC'), ('.', 'O')]
 [('The', 'O'), ('notes', 'O'), ('were', 'O'), ('bought', 'O'), ('for', 'O'), ('$', 'O'), ('31.5', 'O'), ('million', 'O'), ('.', 'O')]
 [('Philip', 'B-PER'), ('Maslowe', 'I-PER'), (',', 'O'), ('chief', 'O'), ('financial', 'O'), ('officer', 'O'), ('of', 'O'), ('the', 'O'), ('preschool', 'O'), ('and', 'O'), ('child', 'O'), ('care', 'O'), ('company', 'O'), (',', 'O'), ('said', 'O'), ('the', 'O'), ('buyback', 'O'), ('"', 'O'), ('offered', 'O'), ('an', 'O'), ('opportunity', 'O'), ('to', 'O'), ('reduce', 'O'), ('the', 'O'), ('company', 'O'), ("'s", 'O'), ('weighted', 'O'), ('average', 'O'), ('interest', 'O'), ('costs', 'O'), ('and', 'O'), ('improve', 'O'), ('future', 'O'), ('cash', 'O'), ('flows', 'O'), ('and', 'O'), ('earnings', 'O'), ('.', 'O'), ('"', 'O')]
